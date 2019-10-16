@@ -1,0 +1,208 @@
+command: cd verif/testbench/trace_generator;make PROJECT=nv_small 
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/env/nvdla_tg_core.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/env/nvdla_tg_core.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/env/nvdla_tg_base_test.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/env/nvdla_tg_base_test.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/env/fp_func_dpi.cpp 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/env/fp_func_dpi.cpp unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/env/nvdla_tg_common.svh 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/env/nvdla_tg_common.svh unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/env/nvdla_tg_top.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/env/nvdla_tg_top.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_cdprdma_cdp_scenario.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_cdprdma_cdp_scenario.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_pdprdma_pdp_scenario.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_pdprdma_pdp_scenario.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_sdprdma_sdp_pdp_scenario.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_sdprdma_sdp_pdp_scenario.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_cc_sdp_scenario.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_cc_sdp_scenario.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_scenario_pkg.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_scenario_pkg.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_cc_sdp_pdp_scenario.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_cc_sdp_pdp_scenario.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_cc_sdprdma_sdp_scenario.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_cc_sdprdma_sdp_scenario.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_sdprdma_sdp_scenario.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_sdprdma_sdp_scenario.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_base_scenario.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_base_scenario.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_cc_sdprdma_sdp_pdp_scenario.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_cc_sdprdma_sdp_pdp_scenario.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_pdp_rdma_resource.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_pdp_rdma_resource.sv modified
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_cdp_resource.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_cdp_resource.sv modified
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_bdma_resource.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_bdma_resource.sv modified
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_cdp_rdma_resource.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_cdp_rdma_resource.sv modified
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_cc_dp_resource.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_cc_dp_resource.sv modified
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_resource_define.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_resource_define.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_pdp_resource.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_pdp_resource.sv modified
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_sdp_rdma_resource.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_sdp_rdma_resource.sv modified
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_sdp_resource.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_sdp_resource.sv modified
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_cdma_resource.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_cdma_resource.sv modified
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_base_resource.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_base_resource.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_rbk_resource.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_rbk_resource.sv modified
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_resource_pkg.sv 
+FILE: ../../../outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_resource_pkg.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cdp_channel_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cdp_channel_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_out_height_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_out_height_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cc_out_width_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cc_out_width_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/sdp_channel_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/sdp_channel_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_in_width_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_in_width_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cdp_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cdp_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cc_feature_data_full_reuse_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cc_feature_data_full_reuse_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_non_split_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_non_split_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_out_channel_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_out_channel_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cc_pitch_line_stride_3_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cc_pitch_line_stride_3_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cc_out_channel_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cc_out_channel_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_split_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_split_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cc_image_data_full_reuse_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cc_image_data_full_reuse_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cc_pitch_line_stride_2_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cc_pitch_line_stride_2_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/sdp_height_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/sdp_height_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/nvdla_user_define_demo_test.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/nvdla_user_define_demo_test.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/nvdla_test_suite.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/nvdla_test_suite.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cc_feature_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cc_feature_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cdp_width_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cdp_width_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cdp_lin_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cdp_lin_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/sdp_bn_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/sdp_bn_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_in_height_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_in_height_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cc_pitch_line_stride_1_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cc_pitch_line_stride_1_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cc_sdprdma_sdp_pdp_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cc_sdprdma_sdp_pdp_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cc_in_height_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cc_in_height_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cc_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cc_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cdp_lut_max_slope_flow_scale_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cdp_lut_max_slope_flow_scale_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/sdp_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/sdp_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cc_sdprdma_sdp_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cc_sdprdma_sdp_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_split_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_split_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cc_sdp_pdp_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cc_sdp_pdp_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_partial_width_in_first_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_partial_width_in_first_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/sdp_bs_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/sdp_bs_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_partial_width_in_mid_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_partial_width_in_mid_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cdp_exp_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cdp_exp_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cc_in_channel_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cc_in_channel_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cc_pitch_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cc_pitch_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_partial_width_in_last_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_partial_width_in_last_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/multi_scenario_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/multi_scenario_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cdp_height_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cdp_height_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_in_channel_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_in_channel_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_out_width_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/pdp_out_width_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cc_out_height_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cc_out_height_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cc_in_width_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cc_in_width_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/sdprdma_sdp_pdp_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/sdprdma_sdp_pdp_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cc_pitch_line_stride_0_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cc_pitch_line_stride_0_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/cc_feature_weight_full_reuse_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/cc_feature_weight_full_reuse_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/sdp_ew_rtest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/sdp_ew_rtest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/tests/uvm_tests/sdp_width_ctest.sv 
+FILE: ../../../outdir/nv_small/verif/tests/uvm_tests/sdp_width_ctest.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/coverage/bit_toggle_cg.sv 
+FILE: ../../../outdir/nv_small/verif/coverage/bit_toggle_cg.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/coverage/nvdla_coverage_pkg.sv 
+FILE: ../../../outdir/nv_small/verif/coverage/nvdla_coverage_pkg.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/coverage/nvdla_coverage_pdp.sv 
+FILE: ../../../outdir/nv_small/verif/coverage/nvdla_coverage_pdp.sv modified
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/coverage/nvdla_coverage_top.sv 
+FILE: ../../../outdir/nv_small/verif/coverage/nvdla_coverage_top.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/coverage/nvdla_coverage_sdp.sv 
+FILE: ../../../outdir/nv_small/verif/coverage/nvdla_coverage_sdp.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/coverage/nvdla_coverage_define.sv 
+FILE: ../../../outdir/nv_small/verif/coverage/nvdla_coverage_define.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/coverage/nvdla_coverage_cdp.sv 
+FILE: ../../../outdir/nv_small/verif/coverage/nvdla_coverage_cdp.sv modified
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/coverage/nvdla_coverage_conv.sv 
+FILE: ../../../outdir/nv_small/verif/coverage/nvdla_coverage_conv.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/coverage/nvdla_coverage_base.sv 
+FILE: ../../../outdir/nv_small/verif/coverage/nvdla_coverage_base.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/coverage/nvdla_coverage_bdma.sv 
+FILE: ../../../outdir/nv_small/verif/coverage/nvdla_coverage_bdma.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/coverage/nvdla_coverage_rubik.sv 
+FILE: ../../../outdir/nv_small/verif/coverage/nvdla_coverage_rubik.sv modified
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/vip/csb_agent/csb_gp_ext.sv 
+FILE: ../../../outdir/nv_small/verif/vip/csb_agent/csb_gp_ext.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/vip/csb_agent/csb_sequencer.sv 
+FILE: ../../../outdir/nv_small/verif/vip/csb_agent/csb_sequencer.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/vip/csb_agent/csb_monitor.sv 
+FILE: ../../../outdir/nv_small/verif/vip/csb_agent/csb_monitor.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/vip/csb_agent/csb_defines.svh 
+FILE: ../../../outdir/nv_small/verif/vip/csb_agent/csb_defines.svh unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/vip/csb_agent/csb_driver.sv 
+FILE: ../../../outdir/nv_small/verif/vip/csb_agent/csb_driver.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/vip/csb_agent/csb_agent.sv 
+FILE: ../../../outdir/nv_small/verif/vip/csb_agent/csb_agent.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/vip/csb_agent/csb_seq_lib.sv 
+FILE: ../../../outdir/nv_small/verif/vip/csb_agent/csb_seq_lib.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/vip/csb_agent/csb_pkg.sv 
+FILE: ../../../outdir/nv_small/verif/vip/csb_agent/csb_pkg.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/vip/csb_agent/csb_interface.sv 
+FILE: ../../../outdir/nv_small/verif/vip/csb_agent/csb_interface.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/ral/nvdla_ral.sv 
+FILE: ../../../outdir/nv_small/verif/ral/nvdla_ral.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/ral/nvdla_reg_adapter.sv 
+FILE: ../../../outdir/nv_small/verif/ral/nvdla_reg_adapter.sv unchanged
+/usr/bin/python ../../../tools/bin/epython -p nv_small -u ../../../outdir/nv_small/verif/ral/nvdla_ral_pkg.sv 
+FILE: ../../../outdir/nv_small/verif/ral/nvdla_ral_pkg.sv unchanged
+/bin/mkdir -p ../../../outdir/nv_small/verif/testbench/trace_generator
+vcs/bin/vcs +incdir+/home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/spec/manual +incdir+/home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/verif/ral +incdir+/home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/verif/vip/csb_agent +incdir+/home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/verif/testbench/trace_generator/env +incdir+/home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/verif/testbench/trace_generator/scenarios +incdir+/home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/verif/testbench/trace_generator/resources +incdir+/home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/verif/tests/uvm_tests +incdir+/home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/verif/coverage   +incdir+/home/amax/workstation/nvdla/master/hw-master/verif/vip/mem_man +incdir+/home/amax/workstation/nvdla/master/hw-master/verif/vip/surface_generator +incdir+/home/amax/workstation/nvdla/master/hw-master/verif/vip/csb_agent  -sverilog -ntb_opts uvm-1.2 -timescale=1ns/1ns -assert enable_diag -line -full64 +v2k +libext+.vlib+.v+.sv+.svh +warn=noTFIPC +warn=noTMR verdi/share/PLI/VCS/LINUX64/pli.a +vcsd -P verdi/share/PLI/VCS/LINUX64/novas.tab  /home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/spec/defs/project.vh /home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/verif/testbench/trace_generator/env/fp_func_dpi.cpp /home/amax/workstation/nvdla/master/hw-master/verif/vip/mem_man/mem_man_pkg.sv /home/amax/workstation/nvdla/master/hw-master/verif/vip/surface_generator/surface_generator_pkg.sv /home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/spec/manual/ordt_uvm_reg_pkg.sv /home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/verif/ral/nvdla_ral_pkg.sv /home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/verif/vip/csb_agent/csb_pkg.sv /home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/verif/coverage/nvdla_coverage_pkg.sv /home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/verif/testbench/trace_generator/resources/nvdla_resource_pkg.sv /home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/verif/testbench/trace_generator/scenarios/nvdla_scenario_pkg.sv /home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/verif/testbench/trace_generator/env/nvdla_tg_common.svh /home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/verif/testbench/trace_generator/env/nvdla_tg_core.sv /home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/verif/testbench/trace_generator/env/nvdla_tg_base_test.sv /home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/verif/testbench/trace_generator/env/nvdla_tg_top.sv /home/amax/workstation/nvdla/master/hw-master/outdir/nv_small/verif/tests/uvm_tests/nvdla_test_suite.sv -l ../../../outdir/nv_small/verif/testbench/trace_generator/simv.build.log -o ../../../outdir/nv_small/verif/testbench/trace_generator/simv -Mdir=../../../outdir/nv_small/verif/testbench/trace_generator/csrc
+Makefile:149: recipe for target 'vcs_build' failed
+make: vcs/bin/vcs: Command not found
+make: *** [vcs_build] Error 127
